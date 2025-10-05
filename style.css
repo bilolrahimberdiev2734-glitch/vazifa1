@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #9C2E2E;
+}
+
+.header {
+  background-color: cyan;
+  text-align: center;
+  padding: 10px;
+  font-weight: 700;
+  color: white;
+}
+
+.container {
+  background-color: #F7E7D3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 90vh;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 290px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.card i {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.card:nth-child(1) i {
+  color: #1DA1F2; /* Twitter */
+}
+
+.card:nth-child(2) i {
+  color: #000; /* Instagram */
+}
+
+.card:nth-child(3) i {
+  color: #FF0000; /* YouTube */
+}
+
+.card h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.card button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 15px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #333;
+}
